@@ -38,6 +38,10 @@ a:hover {
     display: block;
     width: 7.5em;
     border: 4px solid #5e72e4;
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 #header .profile h1 {
@@ -226,6 +230,10 @@ section {
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     width: inherit;
     object-fit: cover;
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 .card-about-txt {
