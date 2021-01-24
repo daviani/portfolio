@@ -252,7 +252,7 @@ section {
 
 /* ======= about ======= */
 .img-about {
-    border-radius: 25px 0 0 25px;
+    border-radius: 0 25px 25px 0;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     width: inherit;
     object-fit: cover;
