@@ -433,7 +433,6 @@ section {
 section .card-contact {
     margin: 120px;
     padding: 40px;
-    width: 25%;
     height: 500px;
     position: absolute;
     z-index: 99;
@@ -552,7 +551,7 @@ section .card-contact {
 
 /* ======= media-query && animate ======= */
 
-@media (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
     #header {
         left: -300px;
     }
@@ -569,15 +568,22 @@ section .card-contact {
     }
 }
 
-@media (min-width: 1024px) {
+@media screen and (max-width: 1024px){
     #hero {
         background-attachment: fixed;
     }
 
+    .img-about {
+        display: none;
+    }
 
+    .card-about-txt {
+        text-align: center;
+        border-radius: 15px;
+    }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px){
     #hero h1 {
         font-size: 28px;
         line-height: 36px;
@@ -587,5 +593,10 @@ section .card-contact {
         font-size: 18px;
         line-height: 24px;
         margin-bottom: 30px;
+    }
+
+    section .card-contact{
+        margin: 90px 40px;
+        padding: 30px;
     }
 }
